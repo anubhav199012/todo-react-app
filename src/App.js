@@ -2,7 +2,6 @@ import "./App.css";
 import React,{useState} from "react";
 import TodoLists from "./TodoLists";
 
-
 const App = () => {
   const [inputList, setInputList]=useState("");
   const [Items, setItems]= useState([]);
